@@ -1,0 +1,36 @@
+<!-- /************************************`
+ * <Basic>							*
+ *	1. File: Sub1_Q4_generic_return_value.java.java
+ *	2. Author: Iwabuchi Ken				*
+ *	3. Date:
+ * <Aim>
+ * 	1.
+ * <Usage>
+ *	1. Run the program
+ * <Source>
+ * 	1. 
+ *									*
+ ************************************/
+ -->
+<project name="sample" default="compile" basedir=".">
+	<property name="srcfile" value="Sub1_s_9_3_wrapper_class.java" ></property>
+	<property name="opt" value="-Xlint:unchecked"></property>
+	<target name="compile">
+	<!--
+		1. The attribute "includeAntRuntime" needed,
+			with the value set to "true"
+	-->
+	  <javac srcdir="."
+	         destdir="."
+
+	  		 includeAntRuntime="true"
+
+	         includes="${srcfile}" >
+	         <!-- <compilearg value="-Xlint:unchecked" /> -->
+	         <compilerarg value="${opt}" />
+
+       </javac>
+
+	</target>
+
+</project>

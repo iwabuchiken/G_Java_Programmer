@@ -1,0 +1,29 @@
+<!-- /************************************`
+ * <Basic>							*
+ *	1. File: build.xml
+ *	2. Author: Iwabuchi Ken				*
+ *	3. Date: 20120206_065151
+ * <Aim>
+ * 	1.
+ * <Usage>
+ *	1. Run the program
+ * <Source>
+ * 	1.
+ *									*
+ ************************************/
+ -->
+<project name="sample" default="compile" basedir=".">
+	<property name="file" value="Sample.java"></property>
+	<property name="src_dir" value="./q4"></property>
+	<target name="compile">
+	<!--
+		1. The attribute "includeAntRuntime" needed,
+			with the value set to "true"
+	-->
+	  <javac srcdir="${src_dir}"
+	         destdir="."
+	         includeAntRuntime="true"
+	         includes="${file}" />
+	</target>
+
+</project>

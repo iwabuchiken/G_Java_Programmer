@@ -1,0 +1,29 @@
+<!-- /************************************`
+ * <Basic>							*
+ *	1. File: Sub2_private_member_variable.xml
+ *	2. Author: Iwabuchi Ken				*
+ *	3. Date: 20120205_134457
+ * <Aim>
+ * 	1.
+ * <Usage>
+ *	1. Run the program
+ * <Source>
+ * 	1.
+ *									*
+ ************************************/
+ -->
+<project name="sample" default="compile" basedir=".">
+
+	<target name="compile">
+	<!--
+		1. The attribute "includeAntRuntime" needed,
+			with the value set to "true"
+	-->
+	  <javac srcdir="."
+	         destdir="."
+	  		 includeAntRuntime="true"
+	         includes="Sub2_q1_private_member_variable.java" />
+
+	</target>
+
+</project>
