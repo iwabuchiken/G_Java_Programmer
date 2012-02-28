@@ -1,14 +1,17 @@
-cd C:\WORKS\WORKSPACES\G_Java_Programmer
+cd C:\workspaces\ws_ubuntu_1\G_Java_Programmer\TRY_1_work\Chp_13\13-1
 
+dir STOR_G20120130_110230_J_learn_01\version*
 
-dir STOR_G20120205_111017_test\version*
-
-cd /var/www/cgi-bin/G20120205_111017_test
+cd /var/www/cgi-bin/G20120130_110230_J_learn_01
 
 C:\workspaces\ws_ubuntu_1\susie347b\Susie.exe
 C:\windows\system32\mspaint.exe
 
-http://183.181.0.54/cgi-bin/G20120205_111017_test/main.java
+http://183.181.0.54/cgi-bin/G20120130_110230_J_learn_01/main.java
+
+[ant]============================
+ant -D"srcfile=Sub1_Q4_generic_return_value.java.java"
+ant -D"srcfile=Sub2_StackTraceElement.java"
 
 [jar]============================
 util.py -vMain.java

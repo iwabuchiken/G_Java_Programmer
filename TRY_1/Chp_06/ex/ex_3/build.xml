@@ -1,0 +1,34 @@
+<!-- /************************************`
+ * <Basic>							*
+ *	1. File: build.xml
+ *	2. Author: Iwabuchi Ken				*
+ *	3. Date: 20120206_065151
+ * <Aim>
+ * 	1.
+ * <Usage>
+ *	1. Run the program
+ * <Source>
+ * 	1.
+ *									*
+ ************************************/
+ -->
+<project name="sample" default="compile" basedir=".">
+
+	<target name="compile">
+	<!--
+		1. The attribute "includeAntRuntime" needed,
+			with the value set to "true"
+	-->
+	  <javac srcdir="./mypackage/utility"
+	         destdir="."
+	  		 includeAntRuntime="true"
+	         includes="MyClassA.java" />
+
+	  <javac srcdir="./mypackage/application"
+	         destdir="."
+	         classpath="./mypackage/utility"
+	  		 includeAntRuntime="true"
+	         includes="MyClassB.java" />
+	</target>
+
+</project>
