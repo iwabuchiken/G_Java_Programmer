@@ -8,7 +8,7 @@
  *	1. Run the program
  * <Source>
  * 	1. getAbsolutePath()	=> http://wisdom.sakura.ne.jp/programming/java/java39.html
- * 	2. getParent()			=> http://www.xinotes.org/notes/note/774/
+ * 	2. getParent()(Dirname)	=> http://www.xinotes.org/notes/note/774/
  * 	3. Parent					=> http://www.site-cooler.com/java/j2se/14_01.htm
  ************************************/
 
