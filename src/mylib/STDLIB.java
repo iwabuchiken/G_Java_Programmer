@@ -1,5 +1,5 @@
 /************************************
- * Sub1_10_6_getParentFile.java 
+ * STDLIB.java 
  * Author: iwabuchiken 
  * Date: 2012/2012/03/07/8:24:32 
  * Aim: 
