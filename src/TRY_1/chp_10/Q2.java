@@ -32,7 +32,7 @@ public class Q2 {
 		
 		/* initialize			*/
 		fname			= "Q2.dat";
-		parent_path = new MyUtil().get_parent_path();
+		parent_path = new MyUtil().get_parent_path(new File(fname).getAbsolutePath());
 		file	= new File(fname);
 		try {
 			String string = "Hi.";		/* text to be written	*/
@@ -68,8 +68,8 @@ public class Q2 {
 //		}
 	}//public static void main(String[] args)
 	
-	public static String get_dirname(String file_name) {
-		
-	}//public static String get_dirname(String file_name)
+//	public static String get_dirname(String file_name) {
+//		
+//	}//public static String get_dirname(String file_name)
 
 }

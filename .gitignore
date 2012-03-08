@@ -1,3 +1,7 @@
 .svn
 .svn/*
 *.class
+bin/*
+src/*.class
+STOR_Java_Programmer/
+STOR_Java_Programmer/*
