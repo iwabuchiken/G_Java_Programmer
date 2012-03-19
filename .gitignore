@@ -2,6 +2,9 @@
 .svn/*
 *.class
 bin/*
+
 src/*.class
+try_1/*.class
+
 STOR_Java_Programmer/
 STOR_Java_Programmer/*
